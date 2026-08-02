@@ -1,69 +1,71 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
-
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# Build directories
+# =========================
+# C++ / CMake build outputs
+# =========================
 build/
-Build/
 build-*/
+cmake-build-*/
+out/
+bin/
+obj/
 
-# CMake generated files
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+Testing/
 Makefile
 install_manifest.txt
-compile_commands.json
+*.ninja
+.ninja_deps
+.ninja_log
 
-# Temporary files
-*.tmp
+# =========================
+# Compiled binaries/libraries
+# =========================
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.so.*
+*.dylib
+*.a
+*.lib
+*.o
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.exp
+
+# =========================
+# Logs / temp files
+# =========================
 *.log
-*.bak
-*.swp
+*.tmp
+*.temp
+*.cache
 
-# vcpkg
-vcpkg_installed/
+# =========================
+# VS Code
+# =========================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 
-# debug information files
-*.dwo
+# =========================
+# OS-specific
+# =========================
+.DS_Store
+Thumbs.db
 
-# test output & cache
-Testing/
-.cache/
+# =========================
+# Optional: test coverage
+# =========================
+*.gcda
+*.gcno
+*.gcov
+coverage/
