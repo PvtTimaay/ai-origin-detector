@@ -1,0 +1,9 @@
+{
+  "name": "ai-origin-detector",
+  "version": "0.1.0",
+  "description": "C++ tool to detect AI-generated media (images, audio, voice, text)",
+  "dependencies": [
+    "nlohmann-json",
+    "spdlog"
+  ]
+}
